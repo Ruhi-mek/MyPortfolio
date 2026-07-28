@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --bgcolor: #57A3BF;
+  --maincolor: #478DA6;
+  --cardcolor: #D9D9D9;
+  --hovercolor: #95DAD7;
+  --textcolor: #000000;
+  --mainradius: 20px;
+  --cardradius: 24px;
+  --btnradius: 35px; 
+}
+
+
+
