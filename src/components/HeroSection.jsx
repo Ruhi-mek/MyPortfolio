@@ -1,5 +1,5 @@
 import "../styles/HeroSection.css"
-import heroIMG from "../assets/heroIMG.jpg"
+import heroIMG from "../assets/heroIMG.svg"
 
 export default function HeroSection() {
   return (

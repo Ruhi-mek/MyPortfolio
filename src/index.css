@@ -5,12 +5,16 @@
 }
 
 :root{
-  --bgcolor: #57A3BF;
-  --maincolor: #478DA6;
+  --bgcolor: #ffffff;
+  --sectioncolor: #f4f8fb;
+  --bordercolor: #E5EEF5;
+  --textcolor: #0b132b;
+  --subtextcolor: #4a5568;
+  --linkhover: #0066ff;
+  --linkactive: #180cf6;
   --cardcolor: #D9D9D9;
-  --hovercolor: #342be4;
-  --textcolor: #000000;
-  --mainradius: 20px;
+
+  --mainradius: 25px;
   --cardradius: 24px;
   --btnradius: 35px; 
 }
