@@ -31,3 +31,17 @@
     gap: 28px;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .project {
+    padding: 40px 20px;
+  }
+
+  .project h1 {
+    font-size: 1.6rem;
+  }
+
+  .card-continer {
+    gap: 20px;
+  }
+}

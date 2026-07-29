@@ -31,3 +31,17 @@
     gap: 24px;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+  .skill {
+    padding: 40px 20px;
+  }
+
+  .skill > h1 {
+    font-size: 1.6rem;
+  }
+
+  .skill-cards-container {
+    gap: 16px;
+  }
+}

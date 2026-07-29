@@ -40,3 +40,13 @@
     transform: translateY(-4px);
     opacity: 1;
 }
+
+@media (max-width: 768px) {
+  .contact {
+    padding: 40px 20px;
+  }
+
+  .contact h1 {
+    font-size: 1.6rem;
+  }
+}

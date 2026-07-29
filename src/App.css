@@ -11,3 +11,13 @@
   width: 90%;
   margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+  .App {
+    padding-top: 90px;
+  }
+
+  .content-wrapper {
+    width: 95%;
+  }
+}
