@@ -1,16 +1,35 @@
-# React + Vite
+# 🌐 My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio! This website showcases my skills, projects, and journey as a Software Engineering student at Addis Ababa University and an aspiring Full-Stack Developer.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 Portfolio:  
+https://my-portfolio-7393-at2yk20gz-ruhi98mek-8161s-projects.vercel.app/
 
-## React Compiler
+## 🛠️ Built With
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- HTML5
+- CSS3
+- JavaScript
+- Git & GitHub
+- Figma
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Responsive design
+- Modern UI/UX
+- About Me section
+- Skills showcase
+- Project gallery
+- Contact section
+
+## ⚙️ Getting Started
+- LinkedIn: [Ruhama Mekonen](http://www.linkedin.com/in/ruhama-mekonen-79655a389)
+- Email: [Ruhi98mek@gmail.com](mailto:Ruhi98mek@gmail.com)
+
+### Clone the repository
+
+`bash
+git clone https://github.com/Ruhi-mek/MyPortfolio.git
