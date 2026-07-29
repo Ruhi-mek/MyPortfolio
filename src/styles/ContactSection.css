@@ -1,0 +1,42 @@
+@import '../index.css';
+
+.contact {
+    background-color: var(--bgcolor);
+    width: 100%;
+    border-radius: var(--mainradius);
+    padding: 50px 40px;
+    border: 1px solid var(--bordercolor);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact h1 {
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.contact p {
+    font-size: 0.97rem;
+    color: var(--subtextcolor);
+    line-height: 1.8;
+    max-width: 520px;
+    margin: 0 auto 32px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-icons a img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    opacity: 0.8;
+}
+
+.social-icons a:hover img {
+    transform: translateY(-4px);
+    opacity: 1;
+}

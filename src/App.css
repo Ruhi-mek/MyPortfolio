@@ -6,3 +6,8 @@
   min-height: 100vh;
   padding-top: 60px;
 }
+
+.content-wrapper {
+  width: 90%;
+  margin: 0 auto;
+}

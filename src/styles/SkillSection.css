@@ -1,32 +1,33 @@
 @import '../index.css';
 
-.skill{
+.skill {
     background-color: var(--sectioncolor);
     width: 100%;
     border-radius: var(--mainradius);
-    padding: 30px 20px;
+    padding: 50px 40px;
     border: 1px solid var(--bordercolor);
-    margin-bottom: 15px;
+    margin-bottom: 30px;
 }
 
-.skill > h1{
+.skill > h1 {
     text-align: center;
-    margin-bottom: 30px;
+    font-size: 2rem;
+    margin-bottom: 8px;
+}
+
+.skill > h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: var(--accentcolor);
+    margin: 10px auto 36px;
+    border-radius: 2px;
 }
 
 .skill-cards-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
-}
-
-.skill-cards-container li{
-    color: var(--textcolor);
-    font-size: 0.95rem;
-    font-weight: 500;
-    align-items: center;
-    gap: 8px;
-    padding: 6px 0;
-    margin-left: 10px;
 }

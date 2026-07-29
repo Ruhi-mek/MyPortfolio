@@ -8,16 +8,19 @@
   --bgcolor: #ffffff;
   --sectioncolor: #f4f8fb;
   --bordercolor: #E5EEF5;
+  --accentcolor: #0B132B;
   --textcolor: #0b132b;
   --subtextcolor: #4a5568;
   --linkhover: #0066ff;
   --linkactive: #180cf6;
   --cardcolor: #D9D9D9;
+  --navheight: 70px;
 
   --mainradius: 25px;
   --cardradius: 24px;
   --btnradius: 35px; 
 }
 
-
-
+[id] {
+  scroll-margin-top: var(--navheight);
+}
