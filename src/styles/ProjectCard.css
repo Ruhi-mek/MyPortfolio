@@ -5,7 +5,7 @@
     border: 1px solid var(--bordercolor);
     border-radius: var(--cardradius);
     padding: 24px;
-    width: 280px;
+    width: 100%;
     box-shadow: 0 4px 20px rgba(15, 23, 42, 0.06);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: flex;

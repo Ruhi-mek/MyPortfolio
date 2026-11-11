@@ -26,10 +26,9 @@
 }
 
 .card-continer {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
     gap: 28px;
-    justify-content: center;
 }
 
 @media (max-width: 768px) {
@@ -42,6 +41,13 @@
   }
 
   .card-continer {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
     gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-continer {
+    grid-template-columns: 1fr;
   }
 }

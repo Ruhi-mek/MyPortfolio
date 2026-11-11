@@ -3,9 +3,7 @@ import heroIMG from "../assets/heroIMG.svg"
 
 export default function HeroSection() {
   return (
-    <div ID="home" className="hero">
-      <img className="heroImg" src={heroIMG} alt="my profile" />
-      
+    <div id="home" className="hero">
       <div className="hero-text">
         <h3>Hello, I'm Ruhama</h3>
         <h1>Full-Stack Developer | Software Engineer</h1>
@@ -14,6 +12,7 @@ export default function HeroSection() {
         </p>
       </div>
 
+      <img className="heroImg" src={heroIMG} alt="my profile" />
     </div> 
   );
 } 

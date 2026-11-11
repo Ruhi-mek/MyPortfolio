@@ -14,6 +14,11 @@ import github from '../assets/github.svg';
 import vscode from '../assets/vscode.svg';
 import npm from '../assets/npm.svg';
 import figma from '../assets/figma.svg';
+import problemSolving from '../assets/problem-solving.svg';
+import teamwork from '../assets/teamwork.svg';
+import communication from '../assets/communication.svg';
+import learning from '../assets/learning.svg';
+import timeManagement from '../assets/time-management.svg';
 
 export default function SkillSection() {
     return(
@@ -45,14 +50,12 @@ export default function SkillSection() {
                 </SkillCard>
 
                 <SkillCard>
-                    <h2>Professional Skills</h2>
-                    <ul>
-                        <li>Problem Solving</li>
-                        <li>Team Collaboration</li>
-                        <li>Communication</li>
-                        <li>Continuous Learning</li>
-                        <li>Time Managemen</li>
-                    </ul>
+                    <h2>Professional</h2>
+                    <SubSkillCard logo={problemSolving} name='Problem Solving'/>
+                    <SubSkillCard logo={teamwork} name='Team Collaboration'/>
+                    <SubSkillCard logo={communication} name='Communication'/>
+                    <SubSkillCard logo={learning} name='Continuous Learning'/>
+                    <SubSkillCard logo={timeManagement} name='Time Management'/>
                 </SkillCard>
             </div>
         </div>
